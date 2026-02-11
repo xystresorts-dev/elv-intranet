@@ -94,11 +94,11 @@ const data = {
     "Interior Design": {
         "Style 1": {
             link: "https://drive.google.com/file/d/1pkjkCwyD4CJvGlw8jAc4HBuIHagh2b1W/view?usp=drive_link",
-            type: "pdf"
+            type: "ppt"
         },
         "Style 2": {
             link: "https://drive.google.com/file/d/1oNcArYGswiIL8_GJfK9SWa5qQmTB-02L/view?usp=drive_link",
-            type: "pdf"
+            type: "ppt"
         },
     },
 
