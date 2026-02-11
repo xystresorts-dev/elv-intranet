@@ -96,11 +96,12 @@ export default function IntranetUI() {
           Elevated Living Ventures · KP Commune
         </h1>
 
+        {/* Desktop Toggle Switch */}
         <div
           role="switch"
           aria-checked={isDark}
           onClick={() => setTheme(isDark ? "light" : "dark")}
-          className={`relative w-14 h-8 rounded-full cursor-pointer transition ${
+          className={`hidden sm:block relative w-14 h-8 rounded-full cursor-pointer transition ${
             isDark ? "bg-neutral-700" : "bg-neutral-300"
           }`}
         >
@@ -109,9 +110,29 @@ export default function IntranetUI() {
               isDark ? "translate-x-6" : "translate-x-0"
             }`}
           >
-            {isDark ? <Moon size={14} /> : <Sun size={14} />}
+            {isDark ? (
+              <Moon size={14} className="text-neutral-800" />
+            ) : (
+              <Sun size={14} className="text-neutal-800" />
+            )}
           </div>
         </div>
+
+        {/* Mobile Toggle Button */}
+        <button
+          onClick={() => setTheme(isDark ? "light" : "dark")}
+          className={`sm:hidden p-2 rounded-full border transition ${
+            isDark
+              ? "bg-neutral-800 border-neutral-700"
+              : "bg-white border-neutral-300"
+          }`}
+        >
+          {isDark ? (
+            <Moon size={18} className="text-neutral-200" />
+          ) : (
+            <Sun size={18} className="text-amber-500" />
+          )}
+        </button>
       </div>
 
       <div className="flex gap-4 mb-10 flex-wrap">
