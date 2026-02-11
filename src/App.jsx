@@ -82,11 +82,11 @@ const data = {
             type: "drawing",
         },
         "2 BHK": {
-            link: "https://drive.google.com/file/d/1cU-uwIU3BhQEKJ7PyeeqlgQcWmqcdBDQ/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1V3J8_dJE8ASS74WZgsue4QQpK-Zg9kd2/view?usp=drive_link",
             type: "drawing",
         },
         "1 BHK": {
-            link: "https://drive.google.com/file/d/1N1m2Q1mqRRGDYrOPQUqLMQbpw5zinNpM/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1BMr4dbfi9NnTr2Tbac8MHUATNfUAC1zl/view?usp=drive_link",
             type: "drawing",
         },
     },
