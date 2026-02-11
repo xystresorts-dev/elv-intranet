@@ -137,11 +137,11 @@ const data = {
     },
 
     "GFC Drawings": {
-        "Site Section": {
+        "Site - Section Plans": {
             link: "https://drive.google.com/file/d/165q9ujqfzvfv_ed0JsgAuTUOvDSPYnAi/view?usp=drive_link",
             type: "pdf"
         },
-        "Elevation - Residential Block": {
+        "Elevation Drawing - Residential Block": {
             link: "https://drive.google.com/file/d/1fkXLxgneW-j_BZZY7yS5T8L2xEcxH0Qe/view?usp=drive_link",
             type: "pdf"
         },
@@ -165,7 +165,7 @@ const data = {
             link: "https://drive.google.com/file/d/1HpCKQdL3TgkQnaU_PuG07DZDS-bHXLBZ/view?usp=drive_link",
             type: "drawing"
         },
-        "Elevation - High Street Shopping Promenade": {
+        "Elevation Drawing - High Street Promenade": {
             link: "https://drive.google.com/file/d/1XELsFjm3UaihrcaEYrNaYsfBwTwF6Bbl/view?usp=drive_link",
             type: "pdf"
         }
@@ -186,7 +186,7 @@ export default function IntranetUI() {
         >
             <div className="flex items-center justify-between mb-8">
                 <h1 className="text-3xl font-semibold">
-                    Elevated Living Ventures · KP Commune
+                    KP Commune + Elevated Living Ventures
                 </h1>
 
                 {/* Desktop Toggle Switch */}
