@@ -136,7 +136,7 @@ const data = {
         }
     },
 
-    "GFC": {
+    "GFC Drawings": {
         Elevation: {
             link: "",
             type: "pdf"
