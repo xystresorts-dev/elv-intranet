@@ -43,18 +43,18 @@ const data = {
             link: "https://drive.google.com/file/d/1SKKwB8Ae20NooZ52KDII3afbJea91WgY/view?usp=drive_link",
             type: "ppt",
         },
-        Brochure: {
-            link: null,
-            type: "pdf"
-        },
+        // Brochure: {
+        //     link: null,
+        //     type: "pdf"
+        // },
         "Site Gallery": {
             link: "https://drive.google.com/file/d/1td-kIyBXrz8CI0sLEw0AsY59qfvhmUSJ/view?usp=drive_link",
             type: "gallery",
         },
-        Video: {
-            link: null,
-            type: "video"
-        },
+        // Video: {
+        //     link: null,
+        //     type: "video"
+        // },
     },
 
     "Site Layout": {
@@ -92,13 +92,76 @@ const data = {
     },
 
     "Interior Design": {
-        "Style 1": { link: null, type: "pdf" },
-        "Style 2": { link: null, type: "pdf" },
+        "Style 1": {
+            link: "https://drive.google.com/file/d/1pkjkCwyD4CJvGlw8jAc4HBuIHagh2b1W/view?usp=drive_link",
+            type: "pdf"
+        },
+        "Style 2": {
+            link: "https://drive.google.com/file/d/1oNcArYGswiIL8_GJfK9SWa5qQmTB-02L/view?usp=drive_link",
+            type: "pdf"
+        },
     },
+
     "Landscaping Design": {
-        "Villa Surroundings": { link: null, type: "gallery" },
-        "Site Overview": { link: null, type: "drawing" },
+        "Villa Surroundings": {
+            link: "https://drive.google.com/file/d/12nPiXLl3uUhhxvXPGJEjB11DjFDx1F-B/view?usp=drive_link",
+            type: "ppt"
+        },
+        "Site Overview": {
+            link: "https://drive.google.com/file/d/1k0uYC1Mp_7809dDKJmXDsKczLcObZZ_t/view?usp=drive_link",
+            type: "ppt"
+        },
     },
+
+    "Booking Documents": {
+        "Application Form": {
+            link: "https://drive.google.com/file/d/1KRYic0syTdrB6-6tO2zHbYsITf5XmftO/view?usp=drive_link",
+            type: "pdf"
+        },
+        "Agreement for Sale": {
+            link: "https://drive.google.com/file/d/1UR8Iaj5wnTx1HEzrgVdcBHIgiOOc__wb/view?usp=drive_link",
+            type: "pdf"
+        },
+        "ICICI Bank APF": {
+            link: "https://drive.google.com/file/d/10m_xJNb8nW0iZq9gn_A3zV4cHwX8fClI/view?usp=drive_link",
+            type: "pdf"
+        },
+        "PNB APF": {
+            link: "https://drive.google.com/file/d/11gYk3GQgoOWCYf1QJcUbffO9SEn-HDj4/view?usp=drive_link",
+            type: "pdf"
+        },
+        "Canara Bank APF": {
+            link: "https://drive.google.com/file/d/19scXEDF7liMOZcFtyUhf9Gxo03RhsjGT/view?usp=drive_link",
+            type: "pdf"
+        }
+    },
+
+    "GFC": {
+        Elevation: {
+            link: "",
+            type: "pdf"
+        },
+        Electrical: {
+            link: "",
+            type: "pdf"
+        },
+        Flooring: {
+            link: "",
+            type: "pdf"
+        },
+        "Floor Finishes": {
+            link: "",
+            type: "pdf"
+        },
+        "Furniture Layout": {
+            link: "",
+            type: "pdf"
+        },
+        "Interior Theme": {
+            link: "",
+            type: "pdf"
+        }
+    }
 };
 
 export default function IntranetUI() {
