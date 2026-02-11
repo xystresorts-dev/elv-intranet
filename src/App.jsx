@@ -137,28 +137,36 @@ const data = {
     },
 
     "GFC Drawings": {
-        Elevation: {
-            link: "",
+        "Site Section": {
+            link: "https://drive.google.com/file/d/165q9ujqfzvfv_ed0JsgAuTUOvDSPYnAi/view?usp=drive_link",
+            type: "pdf"
+        },
+        "Elevation - Residential Block": {
+            link: "https://drive.google.com/file/d/1fkXLxgneW-j_BZZY7yS5T8L2xEcxH0Qe/view?usp=drive_link",
             type: "pdf"
         },
         Electrical: {
-            link: "",
-            type: "pdf"
+            link: "https://drive.google.com/file/d/1IKvqT05PvMIwcpQdr0xm0AVWNGBofoCV/view?usp=drive_link",
+            type: "drawing"
         },
-        Flooring: {
-            link: "",
+        HVAC: {
+            link: "https://drive.google.com/file/d/1m5Gd9_T1rEs4CE3ShSLCMLLhMvQ0Te4S/view?usp=drive_link",
+            type: "drawing"
+        },
+        "Floor Plans": {
+            link: "https://drive.google.com/file/d/1KTIvuW5EiTBy4dalIRkqJ8wHBxue3uTs/view?usp=drive_link",
             type: "pdf"
         },
         "Floor Finishes": {
-            link: "",
-            type: "pdf"
+            link: "https://drive.google.com/file/d/1hpK0Y_1-TBRlZeVu6KXOU3VrA7ybhGxM/view?usp=drive_link",
+            type: "drawing"
         },
         "Furniture Layout": {
-            link: "",
-            type: "pdf"
+            link: "https://drive.google.com/file/d/1HpCKQdL3TgkQnaU_PuG07DZDS-bHXLBZ/view?usp=drive_link",
+            type: "drawing"
         },
-        "Interior Theme": {
-            link: "",
+        "Elevation - High Street Shopping Promenade": {
+            link: "https://drive.google.com/file/d/1XELsFjm3UaihrcaEYrNaYsfBwTwF6Bbl/view?usp=drive_link",
             type: "pdf"
         }
     }
